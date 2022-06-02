@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+ .container {
+     background-color: rgb(2, 2, 47);
+     /* text-align: center; */
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .inner {
+     background-color: rgb(19, 142, 190);
+     display: flex;
+     justify-content: center;
+     width: 50vw;
+     height: 70vh;
+     align-items: center;
+     z-index: 1;
+ }
+ .box {
+     position: relative;
+     background-color: antiquewhite;
+     width: 40%;
+     height: 50%;
+     box-shadow: 5px 10px 8px #1f12d5;
+     border-radius: 4px 4px 0 0;
+     z-index: 1;
+ }
+ /* .tweeter::after {
+    content: '';
+    position: absolute;
+    border: 2px dashed #000;
+    border-right: 0px;
+    top: -98px;
+    left: 170px;
+    width: 200px;
+    background-color: #d2cbcb96;
+    z-index: -1;
+    height: 200px;
+    border-radius: 50%;
+    transform: rotate(-223deg);
+    transition: .5s all ease;
+    z-index: 1;
+ } */
+ .number {
+     text-align: center;
+ }
+ .number img {
+     width: 20%;
+ }
+ #newQ {
+     background-color: rgb(5, 116, 160);
+     color: white;
+     padding: 8px 0 8px 0;
+     border-radius: 0px 0px 4px 4px;
+ }
+ .text {
+     height: 50%;
+     color: rgb(123, 118, 118);
+ }
+ .button {
+     position: absolute;
+     width: 100%;
+     margin-top: 5%;
+     text-align: center;
+     
+ }
+ .button:hover{
+     cursor: pointer;
+ }
+ .quote {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+ }
+ .author {
+    text-align: end;
+    padding-right: 12px;
+ }
+ .start-quote {
+     padding-left: 12px;
+ }
+
+  @media (max-width: 992px) {
+     .inner {
+         width: 70vw;
+     }
+     .box {
+         width: 45vw;
+     }
+     .text {
+         height: 60%;
+     }
+ }
+
+
+/* .newClass {
+    content: '';
+    position: absolute;
+    border: 2px dashed #000;
+    border-right: 0px;
+    top: -60px;
+    left: -40px;
+    width: 200px;
+    z-index: -1;
+    height: 200px;
+    border-radius: 50%;
+    transform: rotate(-200deg);
+    transition: .5s all ease;
+    z-index: 1;
+ } */
